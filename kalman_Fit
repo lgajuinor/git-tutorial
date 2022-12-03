@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-03T14:17:47.720Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.62" etag="mgF1VaIqxy7qveKKdLm1" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-03T14:33:51.418Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.62" etag="3wcL6iU7VwNf7AN8E6yz" version="20.2.7" type="github">
   <diagram id="wEjfl36piUULNInGAMEB" name="第 1 页">
-    <mxGraphModel dx="2549" dy="1405" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="518" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -63,8 +63,14 @@
         <mxCell id="L1oeSKAehmjNHPHsiOXp-18" value="P(0),t=1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="495" y="190" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="L1oeSKAehmjNHPHsiOXp-19" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="410" y="280" width="310" height="60" as="geometry" />
+        <mxCell id="L1oeSKAehmjNHPHsiOXp-19" value="P(t|t-1)=A(t+1,t)p(t-1|t-1)A&lt;sup style=&quot;font-size: 10px;&quot;&gt;T&lt;/sup&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;(t+1,t)+C(t-1)Q(t-1)C&lt;/span&gt;&lt;sup style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;T&lt;/font&gt;&lt;/sup&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;(t-1)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="280" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L1oeSKAehmjNHPHsiOXp-21" value="Kg(t)=P(t|t-1)H&lt;sup&gt;T&lt;/sup&gt;(t)P(t|t-1)H&lt;sup&gt;T&lt;/sup&gt;(t)+R(t)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="400" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L1oeSKAehmjNHPHsiOXp-22" value="P(t-1|t-1)=(1-Kg(t)H(t))P(t|t-1)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="490" width="310" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
