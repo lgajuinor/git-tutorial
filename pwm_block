@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-24T05:30:06.685Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.50" version="20.8.1" etag="d74GNK1RJEPN9EaLZY6r" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-24T05:40:32.050Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.50" version="20.8.1" etag="DjDejP0kRDDithqloODS" type="github">
   <diagram id="7AX01fADOJjg2Zz_PwYD" name="第 1 页">
-    <mxGraphModel dx="2267" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1889" dy="957" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -36,6 +36,9 @@
         </mxCell>
         <mxCell id="2WBBwAfrCr6xb5bTnqri-6" value="设置占空比" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="354" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2WBBwAfrCr6xb5bTnqri-13" value="1.开启定时器时钟和PWM输出GPIO端口时钟&lt;br&gt;2.GPIO初始化为复用推挽输出&lt;br&gt;3.定时器参数初始化，假定定时器时钟频率为84Mhz,若要输出84Khz的PWM波形&lt;br&gt;重装载值设定为99，预分频系数设定为9，计数模式为向上计数&lt;br&gt;4.配置输出比较模式选择PWM1,输出比较极性为低&lt;br&gt;5.使能定时器，设置比较值来确定占空比" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="330" width="450" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
