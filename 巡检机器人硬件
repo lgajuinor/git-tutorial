@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-03T06:46:48.203Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57" etag="QwtKTMq6ckwl_coEd2K8" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-03T06:48:59.620Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57" etag="GnI160WPuYBSJ_y0zodm" version="20.8.23" type="github">
   <diagram name="第 1 页" id="lci3rUSFOclS-NpH_Zxr">
-    <mxGraphModel dx="312" dy="217" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="543" dy="377" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -52,9 +52,6 @@
         <mxCell id="jzl4cHjiv_WVLjYjl0ZX-12" value="充电保护板" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="775" y="530" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jzl4cHjiv_WVLjYjl0ZX-16" value="24V锂电池" style="whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=default;fillColor=#CCFFCC;" vertex="1" parent="1">
-          <mxGeometry x="960" y="520" width="80" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="jzl4cHjiv_WVLjYjl0ZX-17" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="jzl4cHjiv_WVLjYjl0ZX-3" target="jzl4cHjiv_WVLjYjl0ZX-12">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="750" y="550" as="sourcePoint" />
@@ -67,10 +64,10 @@
             <mxPoint x="775" y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jzl4cHjiv_WVLjYjl0ZX-19" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.002;entryY=0.309;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jzl4cHjiv_WVLjYjl0ZX-12" target="jzl4cHjiv_WVLjYjl0ZX-16">
+        <mxCell id="jzl4cHjiv_WVLjYjl0ZX-19" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.002;entryY=0.309;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jzl4cHjiv_WVLjYjl0ZX-12">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="900" y="550" as="sourcePoint" />
-            <mxPoint x="950" y="500" as="targetPoint" />
+            <mxPoint x="960.1600000000001" y="544.7199999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jzl4cHjiv_WVLjYjl0ZX-20" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.002;entryY=0.309;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
@@ -86,22 +83,22 @@
           <mxGeometry x="340" y="410" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jzl4cHjiv_WVLjYjl0ZX-24" value="电源模块" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=default;fillColor=#CCFFCC;" vertex="1" parent="1">
-          <mxGeometry x="940" y="827" width="132.5" height="140" as="geometry" />
+          <mxGeometry x="950" y="820" width="132.5" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="jzl4cHjiv_WVLjYjl0ZX-25" value="" style="endArrow=none;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="jzl4cHjiv_WVLjYjl0ZX-24" target="jzl4cHjiv_WVLjYjl0ZX-16">
+        <mxCell id="jzl4cHjiv_WVLjYjl0ZX-25" value="" style="endArrow=none;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="jzl4cHjiv_WVLjYjl0ZX-24" target="jzl4cHjiv_WVLjYjl0ZX-38">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="980" y="830" as="sourcePoint" />
-            <mxPoint x="1030" y="780" as="targetPoint" />
+            <mxPoint x="980" y="600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jzl4cHjiv_WVLjYjl0ZX-26" value="" style="endArrow=none;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+        <mxCell id="jzl4cHjiv_WVLjYjl0ZX-26" value="" style="endArrow=none;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="jzl4cHjiv_WVLjYjl0ZX-24" target="jzl4cHjiv_WVLjYjl0ZX-38">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1010" y="827" as="sourcePoint" />
-            <mxPoint x="1011" y="600" as="targetPoint" />
+            <mxPoint x="1020" y="600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jzl4cHjiv_WVLjYjl0ZX-27" value="24V" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1010" y="765" width="40" height="30" as="geometry" />
+          <mxGeometry x="996.25" y="765" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jzl4cHjiv_WVLjYjl0ZX-30" value="24V电压输出" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="850" y="827" width="90" height="30" as="geometry" />
@@ -111,6 +108,36 @@
             <mxPoint x="810" y="860" as="sourcePoint" />
             <mxPoint x="840" y="850" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="jzl4cHjiv_WVLjYjl0ZX-32" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.002;exitY=0.375;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="jzl4cHjiv_WVLjYjl0ZX-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="800" y="940" as="sourcePoint" />
+            <mxPoint x="840" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jzl4cHjiv_WVLjYjl0ZX-33" value="12V电压输出" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="850" y="857" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jzl4cHjiv_WVLjYjl0ZX-34" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.593;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="jzl4cHjiv_WVLjYjl0ZX-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="840" y="950" as="sourcePoint" />
+            <mxPoint x="840" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jzl4cHjiv_WVLjYjl0ZX-35" value="5V电压输出" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="850" y="887" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jzl4cHjiv_WVLjYjl0ZX-36" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.001;exitY=0.806;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="jzl4cHjiv_WVLjYjl0ZX-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="830" y="980" as="sourcePoint" />
+            <mxPoint x="840" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jzl4cHjiv_WVLjYjl0ZX-37" value="3.3V电压输出" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="840" y="917" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jzl4cHjiv_WVLjYjl0ZX-38" value="电源模块" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=default;fillColor=#CCFFCC;" vertex="1" parent="1">
+          <mxGeometry x="950" y="490" width="132.5" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
