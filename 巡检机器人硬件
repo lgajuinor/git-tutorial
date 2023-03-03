@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-03T06:49:54.444Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57" etag="v0uavYZmdE4nOey1MHIF" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-03T06:50:27.914Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57" etag="PY9OUlHvr8Mtby99caxB" version="20.8.23" type="github">
   <diagram name="第 1 页" id="lci3rUSFOclS-NpH_Zxr">
-    <mxGraphModel dx="443" dy="308" grid="1" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="765" dy="532" grid="1" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -138,6 +138,9 @@
         </mxCell>
         <mxCell id="jzl4cHjiv_WVLjYjl0ZX-38" value="电源模块" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=default;fillColor=#CCFFCC;" vertex="1" parent="1">
           <mxGeometry x="950" y="490" width="132.5" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="jzl4cHjiv_WVLjYjl0ZX-39" value="STM32F4核心板" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=default;fillColor=#CCFFCC;" vertex="1" parent="1">
+          <mxGeometry x="600" y="795" width="120" height="165" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
