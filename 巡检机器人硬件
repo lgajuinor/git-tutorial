@@ -1,12 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2023-03-03T06:42:30.553Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57" etag="Ubd6L_HICCv9JJ37x94T" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-03T06:43:07.307Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57" etag="8ox-GD5VjaOElryH3eYm" version="20.8.23" type="github">
   <diagram name="第 1 页" id="lci3rUSFOclS-NpH_Zxr">
-    <mxGraphModel dx="270" dy="178" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="978" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="jzl4cHjiv_WVLjYjl0ZX-2" value="电源" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="380" y="680" width="120" height="170" as="geometry" />
-        </mxCell>
         <mxCell id="jzl4cHjiv_WVLjYjl0ZX-3" value="DCDC降压" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="685" y="530" width="120" height="60" as="geometry" />
         </mxCell>
