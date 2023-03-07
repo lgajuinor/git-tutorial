@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-07T08:48:43.373Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.63" etag="FoLDAo1xRpgKcwyG6w5O" version="21.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-07T08:50:23.836Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.63" etag="GZ0GvlDzoInnzFklBqJH" version="21.0.2" type="github">
   <diagram name="第 1 页" id="lci3rUSFOclS-NpH_Zxr">
     <mxGraphModel dx="1271" dy="737" grid="1" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -417,6 +417,21 @@
         </mxCell>
         <mxCell id="WPay8cEP-ZI2srnW2yQk-30" value="STM32F1核心板" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=default;fillColor=#CCFFCC;" vertex="1" parent="1">
           <mxGeometry x="198" y="651" width="73" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="WPay8cEP-ZI2srnW2yQk-34" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.opto_electronics.led_2;pointerEvents=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="956.5" y="1072" width="46" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WPay8cEP-ZI2srnW2yQk-35" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.opto_electronics.led_2;pointerEvents=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
+          <mxGeometry x="956.5" y="1093" width="46" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WPay8cEP-ZI2srnW2yQk-36" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.opto_electronics.led_2;pointerEvents=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+          <mxGeometry x="956.5" y="1115" width="46" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WPay8cEP-ZI2srnW2yQk-37" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.opto_electronics.led_2;pointerEvents=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" vertex="1" parent="1">
+          <mxGeometry x="956.5" y="1140" width="46" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WPay8cEP-ZI2srnW2yQk-38" value="LED" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="905.5" y="1107.5" width="77" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
