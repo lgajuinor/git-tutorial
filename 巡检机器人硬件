@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-07T08:33:09.436Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.63" etag="037Hzcrc_f-zae9IQxwr" version="21.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-07T08:38:48.885Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.63" etag="xSjtjV4b1KvsMDQ1OSxw" version="21.0.2" type="github">
   <diagram name="第 1 页" id="lci3rUSFOclS-NpH_Zxr">
-    <mxGraphModel dx="1271" dy="737" grid="1" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1794" dy="1040" grid="1" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,7 +8,7 @@
           <mxGeometry x="595" y="929" width="409" height="279" as="geometry" />
         </mxCell>
         <mxCell id="jzl4cHjiv_WVLjYjl0ZX-23" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=default;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="529" y="367" width="793" height="351" as="geometry" />
+          <mxGeometry x="529" y="407" width="676" height="238" as="geometry" />
         </mxCell>
         <mxCell id="jzl4cHjiv_WVLjYjl0ZX-3" value="DCDC降压板" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="728" y="534" width="120" height="60" as="geometry" />
@@ -164,7 +164,7 @@
           <mxGeometry x="93" y="530" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jzl4cHjiv_WVLjYjl0ZX-63" value="转接板" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="782" y="902" width="55" height="27" as="geometry" />
+          <mxGeometry x="841" y="901" width="55" height="27" as="geometry" />
         </mxCell>
         <mxCell id="5qHz8GBYR_F1FspMcmD8-1" value="M" style="verticalLabelPosition=middle;shadow=0;dashed=0;align=center;html=1;verticalAlign=middle;strokeWidth=1;shape=ellipse;aspect=fixed;fontSize=35;" parent="1" vertex="1">
           <mxGeometry x="405" y="937" width="60" height="60" as="geometry" />
@@ -291,9 +291,9 @@
           <mxGeometry x="751" y="1190" width="64" height="18" as="geometry" />
         </mxCell>
         <mxCell id="5qHz8GBYR_F1FspMcmD8-46" value="信号端口" style="rounded=0;whiteSpace=wrap;html=1;direction=south;" parent="1" vertex="1">
-          <mxGeometry x="749" y="929" width="26" height="43" as="geometry" />
+          <mxGeometry x="745" y="929" width="26" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="5qHz8GBYR_F1FspMcmD8-48" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.298;entryY=1.002;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="5qHz8GBYR_F1FspMcmD8-46" target="jzl4cHjiv_WVLjYjl0ZX-3" edge="1">
+        <mxCell id="5qHz8GBYR_F1FspMcmD8-48" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="1" source="5qHz8GBYR_F1FspMcmD8-46" target="jzl4cHjiv_WVLjYjl0ZX-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="764" y="929" as="sourcePoint" />
             <mxPoint x="814" y="879" as="targetPoint" />
@@ -301,11 +301,11 @@
         </mxCell>
         <mxCell id="5qHz8GBYR_F1FspMcmD8-49" value="PWM" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="5qHz8GBYR_F1FspMcmD8-48" vertex="1" connectable="0">
           <mxGeometry x="-0.0904" y="-1" relative="1" as="geometry">
-            <mxPoint y="-33" as="offset" />
+            <mxPoint x="1" y="-55" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5qHz8GBYR_F1FspMcmD8-51" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/electronic-13/480/6-electronic-led-icon-2-128.png;rotation=-179;" parent="1" vertex="1">
-          <mxGeometry x="839" y="1190" width="45" height="45" as="geometry" />
+        <mxCell id="5qHz8GBYR_F1FspMcmD8-51" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/electronic-13/480/6-electronic-led-icon-2-128.png;rotation=-180;" parent="1" vertex="1">
+          <mxGeometry x="838.99" y="1190.01" width="46" height="46" as="geometry" />
         </mxCell>
         <mxCell id="5qHz8GBYR_F1FspMcmD8-53" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/nuvola2/48x48/actions/ledorange.png" parent="1" vertex="1">
           <mxGeometry x="751" y="1211.5" width="15" height="15" as="geometry" />
@@ -338,6 +338,40 @@
         </mxCell>
         <mxCell id="WPay8cEP-ZI2srnW2yQk-3" value="24V" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="979" y="960" width="25" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="WPay8cEP-ZI2srnW2yQk-4" value="遥控器" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
+          <mxGeometry x="838.99" y="1277" width="46" height="113" as="geometry" />
+        </mxCell>
+        <mxCell id="WPay8cEP-ZI2srnW2yQk-5" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/electronic-13/480/6-electronic-led-icon-2-128.png;rotation=-180;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="839.49" y="1250" width="45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="WPay8cEP-ZI2srnW2yQk-6" value="信号端口" style="rounded=0;whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="775" y="930" width="26" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="WPay8cEP-ZI2srnW2yQk-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jzl4cHjiv_WVLjYjl0ZX-3" target="WPay8cEP-ZI2srnW2yQk-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="821" y="746" as="sourcePoint" />
+            <mxPoint x="871" y="696" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WPay8cEP-ZI2srnW2yQk-8" value="输出电压" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WPay8cEP-ZI2srnW2yQk-7">
+          <mxGeometry x="-0.1094" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WPay8cEP-ZI2srnW2yQk-9" value="信号端口" style="rounded=0;whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="805" y="930" width="26" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="WPay8cEP-ZI2srnW2yQk-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jzl4cHjiv_WVLjYjl0ZX-3" target="WPay8cEP-ZI2srnW2yQk-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="870" y="720" as="sourcePoint" />
+            <mxPoint x="920" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WPay8cEP-ZI2srnW2yQk-11" value="输出电流" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WPay8cEP-ZI2srnW2yQk-10">
+          <mxGeometry x="0.0711" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
