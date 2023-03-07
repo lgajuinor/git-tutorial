@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-07T08:44:54.700Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.63" etag="tNblVFQERH0ip2VmxioE" version="21.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-07T08:48:43.373Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.63" etag="FoLDAo1xRpgKcwyG6w5O" version="21.0.2" type="github">
   <diagram name="第 1 页" id="lci3rUSFOclS-NpH_Zxr">
-    <mxGraphModel dx="847" dy="491" grid="1" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1271" dy="737" grid="1" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -397,6 +397,26 @@
             <mxPoint x="170" y="539" as="sourcePoint" />
             <mxPoint x="220" y="489" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="WPay8cEP-ZI2srnW2yQk-26" value="给电信号" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="108.5" y="476" width="67" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="WPay8cEP-ZI2srnW2yQk-28" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.508;entryY=-0.036;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.504;exitY=0.98;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="WPay8cEP-ZI2srnW2yQk-26" target="WPay8cEP-ZI2srnW2yQk-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="168" y="528" as="sourcePoint" />
+            <mxPoint x="218" y="478" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WPay8cEP-ZI2srnW2yQk-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WPay8cEP-ZI2srnW2yQk-30" target="jzl4cHjiv_WVLjYjl0ZX-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WPay8cEP-ZI2srnW2yQk-33" value="PWM" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WPay8cEP-ZI2srnW2yQk-31">
+          <mxGeometry x="-0.1882" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WPay8cEP-ZI2srnW2yQk-30" value="STM32F1核心板" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=default;fillColor=#CCFFCC;" vertex="1" parent="1">
+          <mxGeometry x="198" y="651" width="73" height="77" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
