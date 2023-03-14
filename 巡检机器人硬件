@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-13T11:34:45.345Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.69" etag="usCoqa6TR3nc5-vR1elG" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-14T06:22:48.851Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.41" etag="jl8vYEyC96p18FHnxunK" version="21.0.6" type="github">
   <diagram name="第 1 页" id="lci3rUSFOclS-NpH_Zxr">
-    <mxGraphModel dx="2027" dy="1156" grid="1" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1681" dy="963" grid="1" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -76,8 +76,8 @@
         <mxCell id="jzl4cHjiv_WVLjYjl0ZX-21" value="" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=default;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="295" y="441" width="30" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="jzl4cHjiv_WVLjYjl0ZX-22" value="发射端线圈" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="245" y="409" width="80" height="30" as="geometry" />
+        <mxCell id="jzl4cHjiv_WVLjYjl0ZX-22" value="发射端线圈（动态）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="222" y="411" width="127" height="27" as="geometry" />
         </mxCell>
         <mxCell id="jzl4cHjiv_WVLjYjl0ZX-38" value="24V锂电池" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=default;fillColor=#CCFFCC;" parent="1" vertex="1">
           <mxGeometry x="1053" y="494" width="132.5" height="140" as="geometry" />
@@ -431,6 +431,38 @@
         </mxCell>
         <mxCell id="WPay8cEP-ZI2srnW2yQk-40" value="蜂鸣器" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="605" y="1156" width="60" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="9EHJe63aRi8nrnZUj-mK-1" value="上位机（树莓派）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1176" y="1007" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9EHJe63aRi8nrnZUj-mK-2" value="4G/5G模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1205" y="939" width="62" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="9EHJe63aRi8nrnZUj-mK-3" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="9EHJe63aRi8nrnZUj-mK-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1236" y="1007" as="sourcePoint" />
+            <mxPoint x="1286" y="957" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EHJe63aRi8nrnZUj-mK-4" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/internet_cloud.svg;" vertex="1" parent="1">
+          <mxGeometry x="1211" y="869" width="50" height="31.5" as="geometry" />
+        </mxCell>
+        <mxCell id="9EHJe63aRi8nrnZUj-mK-5" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="9EHJe63aRi8nrnZUj-mK-2" target="9EHJe63aRi8nrnZUj-mK-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1235" y="939" as="sourcePoint" />
+            <mxPoint x="1285" y="889" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EHJe63aRi8nrnZUj-mK-6" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.999;exitY=0.388;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="jzl4cHjiv_WVLjYjl0ZX-62" target="9EHJe63aRi8nrnZUj-mK-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1033" y="1058" as="sourcePoint" />
+            <mxPoint x="1083" y="1008" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EHJe63aRi8nrnZUj-mK-7" value="串口通信" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9EHJe63aRi8nrnZUj-mK-6">
+          <mxGeometry x="-0.1171" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
