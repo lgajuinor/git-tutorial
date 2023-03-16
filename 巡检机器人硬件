@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-16T02:42:31.048Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.41" etag="OOT2U5wylR1XjIymaITN" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-16T02:46:54.236Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.41" etag="Id_9dRassPjDu_-WgLFV" version="21.0.6" type="github">
   <diagram name="第 1 页" id="lci3rUSFOclS-NpH_Zxr">
     <mxGraphModel dx="862" dy="580" grid="1" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -150,7 +150,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="jzl4cHjiv_WVLjYjl0ZX-57" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.signal_sources.source;aspect=fixed;points=[[0.5,0,0],[1,0.5,0],[0.5,1,0],[0,0.5,0]];elSignalType=dc3;labelBackgroundColor=default;fontSize=11;fillColor=#CCFFCC;" parent="1" vertex="1">
-          <mxGeometry x="83" y="538" width="32" height="32" as="geometry" />
+          <mxGeometry x="78" y="538" width="32" height="32" as="geometry" />
         </mxCell>
         <mxCell id="jzl4cHjiv_WVLjYjl0ZX-63" value="转接板" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="590.5" y="926" width="55" height="27" as="geometry" />
@@ -412,7 +412,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="WPay8cEP-ZI2srnW2yQk-30" value="STM32F1核心板" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=default;fillColor=#CCFFCC;" parent="1" vertex="1">
-          <mxGeometry x="198" y="651" width="73" height="77" as="geometry" />
+          <mxGeometry x="198" y="971" width="73" height="77" as="geometry" />
         </mxCell>
         <mxCell id="WPay8cEP-ZI2srnW2yQk-34" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.opto_electronics.led_2;pointerEvents=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" parent="1" vertex="1">
           <mxGeometry x="956.5" y="1072" width="46" height="20" as="geometry" />
@@ -438,16 +438,16 @@
         <mxCell id="9EHJe63aRi8nrnZUj-mK-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1174.5" y="939" width="123" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="9EHJe63aRi8nrnZUj-mK-3" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="9EHJe63aRi8nrnZUj-mK-2" edge="1">
+        <mxCell id="9EHJe63aRi8nrnZUj-mK-3" value="USB" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="9EHJe63aRi8nrnZUj-mK-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1236" y="1007" as="sourcePoint" />
             <mxPoint x="1286" y="957" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9EHJe63aRi8nrnZUj-mK-4" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/internet_cloud.svg;" parent="1" vertex="1">
-          <mxGeometry x="1211" y="869" width="50" height="31.5" as="geometry" />
+          <mxGeometry x="1185.61" y="837" width="100.79" height="63.5" as="geometry" />
         </mxCell>
-        <mxCell id="9EHJe63aRi8nrnZUj-mK-5" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="9EHJe63aRi8nrnZUj-mK-2" target="9EHJe63aRi8nrnZUj-mK-4" edge="1">
+        <mxCell id="9EHJe63aRi8nrnZUj-mK-5" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" parent="1" source="9EHJe63aRi8nrnZUj-mK-2" target="9EHJe63aRi8nrnZUj-mK-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1235" y="939" as="sourcePoint" />
             <mxPoint x="1285" y="889" as="targetPoint" />
@@ -475,6 +475,32 @@
         </mxCell>
         <mxCell id="HNiGOsmI-QpCddbRZQjj-3" value="GPS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1244" y="940" width="44" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="HNiGOsmI-QpCddbRZQjj-4" value="本地服务器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1355" y="838.75" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HNiGOsmI-QpCddbRZQjj-5" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="9EHJe63aRi8nrnZUj-mK-4" target="HNiGOsmI-QpCddbRZQjj-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1299" y="862" as="sourcePoint" />
+            <mxPoint x="1349" y="812" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HNiGOsmI-QpCddbRZQjj-7" value="Camera" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.camera;" vertex="1" parent="1">
+          <mxGeometry x="1206" y="1119" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HNiGOsmI-QpCddbRZQjj-8" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="HNiGOsmI-QpCddbRZQjj-7" target="9EHJe63aRi8nrnZUj-mK-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1166" y="1132" as="sourcePoint" />
+            <mxPoint x="1216" y="1082" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HNiGOsmI-QpCddbRZQjj-9" value="USB" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HNiGOsmI-QpCddbRZQjj-8">
+          <mxGeometry x="-0.0329" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HNiGOsmI-QpCddbRZQjj-10" value="阿里云" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="855.25" width="55" height="27" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
